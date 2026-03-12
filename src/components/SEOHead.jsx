@@ -105,18 +105,8 @@ const SCHEMA_BREADCRUMB = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Inicio",
-      "item": "https://leysegundaoportunidadespaa.com/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Ley de Segunda Oportunidad en Sevilla",
-      "item": "https://leysegundaoportunidadespaa.com/ley-segunda-oportunidad-sevilla/"
-    }
+    { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://leysegundaoportunidadespaa.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Ley de Segunda Oportunidad en Sevilla", "item": "https://leysegundaoportunidadespaa.com/ley-segunda-oportunidad-sevilla/" }
   ]
 }
 
@@ -127,11 +117,7 @@ const SCHEMA_WEBPAGE = {
   "description": "Cancela el 100% de tus deudas con la Ley de Segunda Oportunidad en Sevilla.",
   "url": "https://leysegundaoportunidadespaa.com/ley-segunda-oportunidad-sevilla/",
   "inLanguage": "es-ES",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "Artemis Consultores",
-    "url": "https://leysegundaoportunidadespaa.com"
-  },
+  "isPartOf": { "@type": "WebSite", "name": "Artemis Consultores", "url": "https://leysegundaoportunidadespaa.com" },
   "about": { "@type": "Thing", "name": "Ley de Segunda Oportunidad" },
   "mainEntity": { "@id": "https://leysegundaoportunidadespaa.com/#legalservice" }
 }
@@ -139,7 +125,6 @@ const SCHEMA_WEBPAGE = {
 export default function SEOHead() {
   useEffect(() => {
     const injected = []
-
     const injectSchema = (data) => {
       const script = document.createElement('script')
       script.type = 'application/ld+json'
@@ -147,73 +132,40 @@ export default function SEOHead() {
       document.head.appendChild(script)
       injected.push(script)
     }
-
     const setMeta = (attrs) => {
       const el = document.createElement('meta')
       Object.entries(attrs).forEach(([k, v]) => el.setAttribute(k, v))
       document.head.appendChild(el)
       injected.push(el)
     }
-
     const setLink = (attrs) => {
       const el = document.createElement('link')
       Object.entries(attrs).forEach(([k, v]) => el.setAttribute(k, v))
       document.head.appendChild(el)
       injected.push(el)
     }
-
     document.title = 'Ley de Segunda Oportunidad en Sevilla | Artemis Consultores'
-
-    // Core SEO
     setMeta({ name: 'description', content: 'Cancela el 100% de tus deudas con la Ley de Segunda Oportunidad en Sevilla. Artemis Consultores, +15 años de experiencia. Primera consulta gratuita. Llama: 633 76 26 37.' })
-    setMeta({ name: 'keywords', content: 'ley segunda oportunidad Sevilla, ley segunda oportunidad Madrid, ley segunda oportunidad Barcelona, cancelar deudas Sevilla, abogados deudas España, exoneración pasivo insatisfecho, concurso acreedores Sevilla' })
     setMeta({ name: 'robots', content: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1' })
     setMeta({ name: 'author', content: 'Artemis Consultores' })
     setMeta({ name: 'geo.region', content: 'ES-SE' })
     setMeta({ name: 'geo.placename', content: 'Sevilla' })
-    setMeta({ name: 'geo.position', content: '37.3891;-5.9845' })
-    setMeta({ name: 'ICBM', content: '37.3891, -5.9845' })
-
-    // Viewport & Mobile
     setMeta({ name: 'theme-color', content: '#0a0f2e' })
-    setMeta({ name: 'mobile-web-app-capable', content: 'yes' })
-    setMeta({ name: 'apple-mobile-web-app-capable', content: 'yes' })
-    setMeta({ name: 'apple-mobile-web-app-status-bar-style', content: 'black-translucent' })
-
-    // Open Graph
     setMeta({ property: 'og:title', content: 'Ley de Segunda Oportunidad en Sevilla | Artemis Consultores' })
     setMeta({ property: 'og:description', content: 'Cancela el 100% de tus deudas con la Ley de Segunda Oportunidad en Sevilla. +15 años de experiencia. Primera consulta gratuita.' })
     setMeta({ property: 'og:type', content: 'website' })
-    setMeta({ property: 'og:locale', content: 'es_ES' })
     setMeta({ property: 'og:url', content: 'https://leysegundaoportunidadespaa.com/ley-segunda-oportunidad-sevilla/' })
-    setMeta({ property: 'og:site_name', content: 'Artemis Consultores' })
     setMeta({ property: 'og:image', content: 'https://leysegundaoportunidadespaa.com/hero-bg.webp' })
-    setMeta({ property: 'og:image:width', content: '1440' })
-    setMeta({ property: 'og:image:height', content: '720' })
-    setMeta({ property: 'og:image:alt', content: 'Artemis Consultores — Ley de Segunda Oportunidad en Sevilla' })
-
-    // Twitter Card
     setMeta({ name: 'twitter:card', content: 'summary_large_image' })
     setMeta({ name: 'twitter:title', content: 'Ley de Segunda Oportunidad en Sevilla | Artemis Consultores' })
-    setMeta({ name: 'twitter:description', content: 'Cancela el 100% de tus deudas. Consulta gratuita.' })
     setMeta({ name: 'twitter:image', content: 'https://leysegundaoportunidadespaa.com/hero-bg.webp' })
-
-    // Canonical + Hreflang
     setLink({ rel: 'canonical', href: 'https://leysegundaoportunidadespaa.com/ley-segunda-oportunidad-sevilla/' })
-    setLink({ rel: 'alternate', hreflang: 'es', href: 'https://leysegundaoportunidadespaa.com/ley-segunda-oportunidad-sevilla/' })
-    setLink({ rel: 'alternate', hreflang: 'x-default', href: 'https://leysegundaoportunidadespaa.com/' })
-
-    // Sitemap preload
     setLink({ rel: 'sitemap', type: 'application/xml', title: 'Sitemap', href: '/sitemap.xml' })
-
-    // Schema.org
     injectSchema(SCHEMA_LEGAL)
     injectSchema(SCHEMA_FAQ)
     injectSchema(SCHEMA_BREADCRUMB)
     injectSchema(SCHEMA_WEBPAGE)
-
     return () => injected.forEach(el => el?.remove())
   }, [])
-
   return null
 }
