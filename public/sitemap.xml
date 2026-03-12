@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- ═══════════════════════════════════════
+       PÁGINA PRINCIPAL
+       ═══════════════════════════════════════ -->
+  <url>
+    <loc>https://leysegundaoportunidadespaa.com/</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://leysegundaoportunidadespaa.com/hero-bg.webp</image:loc>
+      <image:title>Artemis Consultores — Ley de Segunda Oportunidad en España</image:title>
+    </image:image>
+  </url>
+
+  <!-- ═══════════════════════════════════════
+       PÁGINAS DE CIUDAD — TIER 1 (Alta prioridad)
+       ═══════════════════════════════════════ -->
+  <url>
+    <loc>https://leysegundaoportunidadespaa.com/ley-segunda-oportunidad-sevilla/</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://leysegundaoportunidadespaa.com/ley-segunda-oportunidad-madrid/</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://leysegundaoportunidadespaa.com/ley-segunda-oportunidad-barcelona/</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <!-- ═══════════════════════════════════════
+       PÁGINAS DE CIUDAD — TIER 2
+       ═══════════════════════════════════════ -->
+  <url>
+    <loc>https://leysegundaoportunidadespaa.com/ley-segunda-oportunidad-cadiz/</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://leysegundaoportunidadespaa.com/ley-segunda-oportunidad-malaga/</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://leysegundaoportunidadespaa.com/ley-segunda-oportunidad-valencia/</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://leysegundaoportunidadespaa.com/ley-segunda-oportunidad-zaragoza/</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://leysegundaoportunidadespaa.com/ley-segunda-oportunidad-bilbao/</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://leysegundaoportunidadespaa.com/ley-segunda-oportunidad-alicante/</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://leysegundaoportunidadespaa.com/ley-segunda-oportunidad-granada/</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://leysegundaoportunidadespaa.com/ley-segunda-oportunidad-cordoba/</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.78</priority>
+  </url>
+
+  <url>
+    <loc>https://leysegundaoportunidadespaa.com/ley-segunda-oportunidad-murcia/</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.78</priority>
+  </url>
+
+  <url>
+    <loc>https://leysegundaoportunidadespaa.com/ley-segunda-oportunidad-palma/</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.78</priority>
+  </url>
+
+  <!-- ═══════════════════════════════════════
+       PÁGINAS DE SERVICIO
+       ═══════════════════════════════════════ -->
+  <url>
+    <loc>https://leysegundaoportunidadespaa.com/cancelar-deudas-espana/</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://leysegundaoportunidadespaa.com/abogados-deudas-sevilla/</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.88</priority>
+  </url>
+
+  <url>
+    <loc>https://leysegundaoportunidadespaa.com/concurso-acreedores-sevilla/</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://leysegundaoportunidadespaa.com/exoneracion-pasivo-insatisfecho/</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://leysegundaoportunidadespaa.com/cancelar-deudas-hacienda/</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.83</priority>
+  </url>
+
+  <url>
+    <loc>https://leysegundaoportunidadespaa.com/cancelar-deudas-autonomos/</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.83</priority>
+  </url>
+
+  <url>
+    <loc>https://leysegundaoportunidadespaa.com/levantamiento-embargo/</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.82</priority>
+  </url>
+
+  <!-- ═══════════════════════════════════════
+       PÁGINAS CORPORATIVAS
+       ═══════════════════════════════════════ -->
+  <url>
+    <loc>https://leysegundaoportunidadespaa.com/artemis-consultores/</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <url>
+    <loc>https://leysegundaoportunidadespaa.com/contacto/</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://leysegundaoportunidadespaa.com/blog/</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+
+  <!-- ═══════════════════════════════════════
+       ARTÍCULOS DE BLOG (ejemplos)
+       ═══════════════════════════════════════ -->
+  <url>
+    <loc>https://leysegundaoportunidadespaa.com/blog/que-es-la-ley-de-segunda-oportunidad/</loc>
+    <lastmod>2025-02-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.65</priority>
+  </url>
+
+  <url>
+    <loc>https://leysegundaoportunidadespaa.com/blog/requisitos-ley-segunda-oportunidad/</loc>
+    <lastmod>2025-02-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.65</priority>
+  </url>
+
+  <url>
+    <loc>https://leysegundaoportunidadespaa.com/blog/cancelar-deudas-hacienda-segunda-oportunidad/</loc>
+    <lastmod>2025-02-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.65</priority>
+  </url>
+
+  <!-- ═══════════════════════════════════════
+       PÁGINAS LEGALES
+       ═══════════════════════════════════════ -->
+  <url>
+    <loc>https://leysegundaoportunidadespaa.com/politica-de-privacidad/</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.30</priority>
+  </url>
+
+  <url>
+    <loc>https://leysegundaoportunidadespaa.com/aviso-legal/</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.30</priority>
+  </url>
+
+  <url>
+    <loc>https://leysegundaoportunidadespaa.com/politica-de-cookies/</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.20</priority>
+  </url>
+
+</urlset>
