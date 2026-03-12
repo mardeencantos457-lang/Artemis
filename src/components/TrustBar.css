@@ -1,0 +1,41 @@
+.trust-bar {
+  background: var(--navy);
+  border-top: 1px solid rgba(255,255,255,.06);
+  padding: 18px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.trust-bar-item {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  color: rgba(255,255,255,.72);
+  font-size: 13px;
+  font-weight: 500;
+  padding: 8px 24px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.trust-bar-item + .trust-bar-item::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 16px;
+  width: 1px;
+  background: rgba(255,255,255,.12);
+}
+
+.trust-icon { font-size: 15px; }
+
+@media (max-width: 768px) {
+  .trust-bar { gap: 0; padding: 12px 16px; }
+  .trust-bar-item { font-size: 12px; padding: 7px 14px; }
+}
