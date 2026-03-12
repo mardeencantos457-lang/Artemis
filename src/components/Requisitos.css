@@ -1,0 +1,121 @@
+.requisitos {
+  background: var(--navy);
+  position: relative;
+  overflow: hidden;
+}
+
+.requisitos::before {
+  content: '';
+  position: absolute;
+  top: -200px; right: -200px;
+  width: 600px; height: 600px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(201,104,58,.08) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.req-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 72px;
+  align-items: center;
+}
+
+.req-items {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.req-item {
+  background: rgba(255,255,255,.04);
+  border: 1px solid rgba(255,255,255,.07);
+  border-radius: 10px;
+  padding: 22px 24px;
+  cursor: pointer;
+  transition: all var(--ease);
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+}
+.req-item:hover,
+.req-item.active {
+  background: rgba(255,255,255,.08);
+  border-color: var(--orange);
+}
+
+.req-num {
+  font-family: var(--serif);
+  font-size: 32px;
+  font-weight: 700;
+  color: rgba(255,255,255,.08);
+  line-height: 1;
+  flex-shrink: 0;
+  width: 40px;
+  transition: color var(--ease);
+}
+.req-item:hover .req-num,
+.req-item.active .req-num { color: var(--orange); }
+
+.req-body h4 {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  font-family: var(--sans);
+}
+.req-body p {
+  color: rgba(255,255,255,.5);
+  font-size: 13.5px;
+  line-height: 1.65;
+}
+
+/* CTA box */
+.req-cta {
+  background: var(--orange);
+  border-radius: 18px;
+  padding: 48px 44px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.req-cta-deco {
+  position: absolute;
+  bottom: -40px; right: -40px;
+  width: 200px; height: 200px;
+  border-radius: 50%;
+  background: rgba(255,255,255,.08);
+}
+
+.req-cta h3 {
+  font-family: var(--serif);
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 14px;
+  position: relative;
+}
+.req-cta p {
+  color: rgba(255,255,255,.82);
+  font-size: 15px;
+  line-height: 1.65;
+  margin-bottom: 28px;
+  position: relative;
+}
+
+.req-phone {
+  display: block;
+  font-family: var(--serif);
+  font-size: 36px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 22px;
+  position: relative;
+  transition: opacity .2s;
+}
+.req-phone:hover { opacity: .85; }
+
+@media (max-width: 1024px) {
+  .req-grid { grid-template-columns: 1fr; gap: 48px; }
+}
