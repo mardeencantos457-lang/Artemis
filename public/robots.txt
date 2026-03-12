@@ -1,0 +1,50 @@
+User-agent: *
+Allow: /
+
+# Páginas principales
+Allow: /
+Allow: /ley-segunda-oportunidad-sevilla/
+Allow: /ley-segunda-oportunidad-madrid/
+Allow: /ley-segunda-oportunidad-barcelona/
+Allow: /ley-segunda-oportunidad-espana/
+Allow: /ley-segunda-oportunidad-cadiz/
+Allow: /ley-segunda-oportunidad-malaga/
+Allow: /ley-segunda-oportunidad-valencia/
+Allow: /abogados-deudas-sevilla/
+Allow: /cancelar-deudas-espana/
+Allow: /concurso-acreedores-sevilla/
+Allow: /artemis-consultores/
+Allow: /blog/
+Allow: /contacto/
+
+# Bloquear rutas innecesarias
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-content/plugins/
+Disallow: /wp-json/
+Disallow: /?s=
+Disallow: /search/
+Disallow: /tag/
+Disallow: /author/
+Disallow: /feed/
+Disallow: /*.php$
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /my-account/
+Disallow: /tmp/
+Disallow: /cgi-bin/
+
+# Sitemaps
+Sitemap: https://leysegundaoportunidadespaa.com/sitemap.xml
+Sitemap: https://leysegundaoportunidadespaa.com/sitemap-pages.xml
+Sitemap: https://leysegundaoportunidadespaa.com/sitemap-posts.xml
+
+# Crawl-delay para bots secundarios
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+User-agent: MJ12bot
+Disallow: /
