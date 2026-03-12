@@ -1,0 +1,191 @@
+.ciudades-section { background: var(--white); border-top: 1px solid var(--border); }
+
+.ciudades-header { margin-bottom: 48px; }
+
+/* Tier 1 */
+.ciudades-tier1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin-bottom: 32px;
+}
+
+.ciudad-card-main {
+  display: block;
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  overflow: hidden;
+  transition: all var(--ease);
+  background: var(--cream);
+}
+.ciudad-card-main:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--orange);
+}
+.ciudad-card-main.active {
+  background: var(--navy);
+  border-color: var(--navy);
+}
+
+.ciudad-card-main-inner { padding: 32px 28px; }
+
+.ciudad-badge {
+  display: inline-block;
+  background: var(--orange);
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding: 4px 12px;
+  border-radius: 100px;
+  margin-bottom: 16px;
+}
+
+.ciudad-icon {
+  width: 44px; height: 44px;
+  border-radius: 50%;
+  background: rgba(201,104,58,.12);
+  display: flex; align-items: center; justify-content: center;
+  color: var(--orange);
+  margin-bottom: 16px;
+}
+.ciudad-card-main.active .ciudad-icon {
+  background: rgba(255,255,255,.1);
+  color: #f0a96a;
+}
+
+.ciudad-card-main h3 {
+  font-family: var(--serif);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--navy);
+  line-height: 1.3;
+  margin-bottom: 8px;
+}
+.ciudad-card-main h3 span {
+  font-size: 20px;
+  display: block;
+}
+.ciudad-card-main.active h3 { color: #fff; }
+.ciudad-card-main.active h3 span { color: #f0a96a; }
+
+.ciudad-card-main p {
+  font-size: 13px;
+  color: var(--slate);
+  margin-bottom: 20px;
+}
+.ciudad-card-main.active p { color: rgba(255,255,255,.55); }
+
+.ciudad-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--navy);
+  border-bottom: 1.5px solid var(--navy);
+  padding-bottom: 2px;
+  transition: gap var(--ease);
+}
+.ciudad-card-main:hover .ciudad-link { gap: 10px; }
+.ciudad-card-main.active .ciudad-link {
+  color: var(--orange);
+  border-color: rgba(240,169,106,.4);
+}
+
+/* Tier 2 */
+.ciudades-tier2-wrap {
+  background: var(--cream);
+  border-radius: 14px;
+  padding: 24px 28px;
+  margin-bottom: 16px;
+}
+
+.ciudades-tier2-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 16px;
+}
+
+.ciudades-tier2 {
+  list-style: none;
+  padding: 0; margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.ciudades-tier2 li a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #fff;
+  border: 1px solid var(--border);
+  color: var(--navy);
+  font-size: 13px;
+  font-weight: 500;
+  padding: 7px 16px;
+  border-radius: 100px;
+  transition: all var(--ease);
+}
+.ciudades-tier2 li a svg { color: var(--orange); flex-shrink: 0; }
+.ciudades-tier2 li a:hover {
+  background: var(--navy);
+  color: #fff;
+  border-color: var(--navy);
+}
+.ciudades-tier2 li a:hover svg { color: #f0a96a; }
+
+/* Service links */
+.servicios-links-wrap {
+  background: var(--cream2);
+  border-radius: 14px;
+  padding: 22px 28px;
+}
+
+.servicios-links-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 14px;
+}
+
+.servicios-links {
+  list-style: none;
+  padding: 0; margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.servicios-links li a {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--slate);
+  font-size: 13px;
+  transition: color var(--ease);
+  padding: 4px 0;
+}
+.servicios-links li a svg { color: var(--orange); flex-shrink: 0; }
+.servicios-links li a:hover { color: var(--orange); }
+.servicios-links li a::after {
+  content: '·';
+  margin-left: 6px;
+  color: var(--border);
+}
+.servicios-links li:last-child a::after { display: none; }
+
+@media (max-width: 1024px) {
+  .ciudades-tier1 { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 600px) {
+  .ciudades-tier1 { grid-template-columns: 1fr; }
+}
