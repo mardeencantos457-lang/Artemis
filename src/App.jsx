@@ -23,7 +23,7 @@ function WAFloat() {
   }, [])
 
   return (
-    <a
+    
       href="https://wa.me/34633762637"
       target="_blank"
       rel="noopener noreferrer"
