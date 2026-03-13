@@ -30,7 +30,7 @@ export default function About() {
 
           <div className="about-photo-card">
             <img
-              src="/about-bg.webp"
+              src="/about-bg.png"
               alt="Artemis Consultores especialistas en cancelación de deudas en Sevilla"
               width="560"
               height="320"
