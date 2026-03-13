@@ -15,7 +15,7 @@ export default function Hero() {
     <header className="hero" role="banner">
       <div className="hero-bg">
         <img
-          src="/hero-bg.webp"
+          src="/hero-bg.png"
           alt="Artemis Consultores — Despacho jurídico especializado en Ley de Segunda Oportunidad en Sevilla"
           width="1440" height="720"
           loading="eager"
